@@ -1,0 +1,10 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "B;uetooth",
+            "price": "222",
+            "category": "electronics"
+        }
+    ]
+}
