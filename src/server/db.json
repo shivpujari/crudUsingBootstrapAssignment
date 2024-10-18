@@ -1,26 +1,14 @@
 {
   "products": [
     {
-      "name": "Headphone",
-      "price": 9878,
+      "name": "Bluetooth Headphone",
+      "price": 2600,
       "category": "Electronics",
-      "id": "6446"
-    },
-    {
-      "name": "Charger",
-      "price": 4500,
-      "category": "Electronics",
-      "id": "9f6a"
-    },
-    {
-      "name": "Bluetooth ",
-      "price": 2333,
-      "category": "Gadget",
       "id": "53c3"
     },
     {
-      "name": "Power Bank",
-      "price": 5423,
+      "name": "Power Battery",
+      "price": 5000,
       "category": "Gadget",
       "id": "16ff"
     },
@@ -31,16 +19,88 @@
       "id": "b5c8"
     },
     {
-      "id": "ff7c",
-      "name": "Laptop",
-      "price": 13000,
+      "id": "0edd",
+      "name": "Portable SSD",
+      "price": 5000,
+      "category": "Storage"
+    },
+    {
+      "id": "1b2c",
+      "name": "Smartwatch",
+      "price": 7500,
+      "category": "Wearables"
+    },
+    {
+      "id": "3a4d",
+      "name": "Gaming Mouse",
+      "price": 3500,
+      "category": "Accessories"
+    },
+    {
+      "id": "2c5b",
+      "name": "Wireless Keyboard",
+      "price": 2800,
+      "category": "Accessories"
+    },
+    {
+      "name": "Desk ",
+      "price": 3200,
+      "category": "Furniture",
+      "id": "5g8h"
+    },
+    {
+      "id": "7k0l",
+      "name": "Vacuum Cleaner",
+      "price": 9000,
+      "category": "Home Appliances"
+    },
+    {
+      "id": "8m1n",
+      "name": "Digital Camera",
+      "price": 45000,
       "category": "Electronics"
     },
     {
-      "id": "0edd",
-      "name": "sss",
-      "price": 111,
-      "category": "sss"
+      "id": "9o2p",
+      "name": "Drone",
+      "price": 25000,
+      "category": "Electronics"
+    },
+    {
+      "id": "0q3r",
+      "name": "Smart TV",
+      "price": 50000,
+      "category": "Electronics"
+    },
+    {
+      "id": "1s4t",
+      "name": "Bluetooth Headset",
+      "price": 3000,
+      "category": "Gadget"
+    },
+    {
+      "id": "2u5v",
+      "name": "Game Console",
+      "price": 40000,
+      "category": "Gaming"
+    },
+    {
+      "id": "3w6x",
+      "name": "Fitness Tracker",
+      "price": 6000,
+      "category": "Wearables"
+    },
+    {
+      "id": "716b",
+      "name": ";lkjh",
+      "price": 9876,
+      "category": ";lkjhg"
+    },
+    {
+      "id": "663d",
+      "name": "Product B",
+      "price": 900,
+      "category": "Category B"
     }
   ]
 }
