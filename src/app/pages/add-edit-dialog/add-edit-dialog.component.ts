@@ -13,6 +13,7 @@ import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angula
 export class AddEditDialogComponent {
   @Input() product: Product | null = null
   @Output() dialogClosed = new EventEmitter<Product>()
+  @Output() closeDialog = new EventEmitter<void>()
 
   formBuilder = inject(FormBuilder)
   form: any = FormGroup
@@ -20,10 +21,10 @@ export class AddEditDialogComponent {
 
   constructor() {
     this.form = this.formBuilder.group({
-      name: ['', Validators.required],
-      price: ['', Validators.required],
-      category: ['', Validators.required]
-    })
+      name: ['', [Validators.required, Validators.minLength(3)]],  // Name: required, minimum length of 3
+      price: ['', [Validators.required, Validators.min(100)]],     // Price: required, minimum value of 100
+      category: ['', [Validators.required, Validators.minLength(3)]] // Category: required, minimum length of 3
+    });
   }
 
   ngOnChanges(): void {
@@ -42,16 +43,14 @@ export class AddEditDialogComponent {
   onSubmit(): void {
     if (this.form.valid) {
       if (this.editMode == true && this.product) {
-        // this.form.value['id'] = this.product.id
+        this.form.value['id'] = this.product.id
       }
       this.dialogClosed.emit(this.form.value)
     }
   }
 
   onClose(): void {
-    // this.closeDialog.emit()
+    this.closeDialog.emit()
   }
-
-
 }
 

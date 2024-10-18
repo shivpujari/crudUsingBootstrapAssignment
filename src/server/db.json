@@ -1,28 +1,46 @@
 {
   "products": [
     {
-      "name": "SDfsajigssssss",
+      "name": "Headphone",
       "price": 9878,
-      "category": "0iuyghjk",
+      "category": "Electronics",
       "id": "6446"
     },
     {
-      "id": "8ead",
-      "name": "cildjf",
-      "price": 786757,
-      "category": "kjnmnvnc"
+      "name": "Charger",
+      "price": 4500,
+      "category": "Electronics",
+      "id": "9f6a"
     },
     {
-      "id": "9f6a",
-      "name": "SDfsajigs",
-      "price": 9878,
-      "category": "0iuyghjk"
+      "name": "Bluetooth ",
+      "price": 2333,
+      "category": "Gadget",
+      "id": "53c3"
     },
     {
-      "id": "53c3",
-      "name": "SDfsaji",
-      "price": 9878,
-      "category": "0iuyghjk"
+      "name": "Power Bank",
+      "price": 5423,
+      "category": "Gadget",
+      "id": "16ff"
+    },
+    {
+      "name": "Refrigerator",
+      "price": 12000,
+      "category": "Electronics",
+      "id": "b5c8"
+    },
+    {
+      "id": "ff7c",
+      "name": "Laptop",
+      "price": 13000,
+      "category": "Electronics"
+    },
+    {
+      "id": "0edd",
+      "name": "sss",
+      "price": 111,
+      "category": "sss"
     }
   ]
 }
