@@ -30,7 +30,7 @@ export class ProductsService {
   }
 
   addProduct(product: Product): Observable<Product> {
-    return this.httpClient.post<Product>(this.baseURL, product).pipe(tap(() => this.loadProducts()))
+    return this.httpClient.post<Product>(`${this.baseURL}/products`, product).pipe(tap(() => this.loadProducts()))
   }
 
   updateProduct(product: Product): Observable<Product> {

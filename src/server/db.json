@@ -1,10 +1,28 @@
 {
-    "products": [
-        {
-            "id": 1,
-            "name": "B;uetooth",
-            "price": "222",
-            "category": "electronics"
-        }
-    ]
+  "products": [
+    {
+      "name": "SDfsajigssssss",
+      "price": 9878,
+      "category": "0iuyghjk",
+      "id": "6446"
+    },
+    {
+      "id": "8ead",
+      "name": "cildjf",
+      "price": 786757,
+      "category": "kjnmnvnc"
+    },
+    {
+      "id": "9f6a",
+      "name": "SDfsajigs",
+      "price": 9878,
+      "category": "0iuyghjk"
+    },
+    {
+      "id": "53c3",
+      "name": "SDfsaji",
+      "price": 9878,
+      "category": "0iuyghjk"
+    }
+  ]
 }
